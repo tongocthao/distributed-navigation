@@ -1,0 +1,31 @@
+/*
+
+Typefaces: san-serif
+Text sizes: 1.125rem
+Line-heights: 1.5
+Colors: #e2e2e2. #0074d9, #fff
+Margins: .5rem
+Paddings: 1rem, .75em 1em .6em
+Image width: 2rem
+
+*/
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  /* Wrap */
+  flex-wrap: wrap;
+  /* Main Axis alignment */
+  justify-content: space-between;
+  /* Cross Axis Alignment */
+  align-items: center;
+}
